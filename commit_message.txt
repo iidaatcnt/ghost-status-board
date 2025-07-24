@@ -1,0 +1,1 @@
+feat: Initial setup of Next.js project with Vercel Postgres integration and basic status board UI.

@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ghost Status Board
 
-## Getting Started
+This is a simple web application that allows users to update and display their current status or messages.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This application serves as a status board where individuals can post their current availability, activity, or short messages. It's designed to provide a quick overview of team members' statuses, which can be useful in various work environments.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   **Status Updates:** Users can input their name/nickname and a message (up to 100 characters).
+-   **Predefined Status Types:** Users can select from a list of predefined status types (e.g., Available, Busy, In a meeting, Out of office, On break, Working remotely, Sick leave, On vacation).
+-   **Real-time Display:** Posted statuses are displayed on the board, showing the author's name, message, and last updated time.
+-   **Simple Interface:** A clean and straightforward user interface for easy status management.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+-   [Next.js](https://nextjs.org/) - React framework for building user interfaces.
+-   [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript.
+-   [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework (implied by `postcss.config.mjs` and `tailwind.config.ts` in directory listing).
 
-To learn more about Next.js, take a look at the following resources:
+## How to Run Locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1.  Clone this repository to your local machine.
+2.  Install NPM packages:
+    ```sh
+    npm install
+    ```
+3.  Run the development server:
+    ```sh
+    npm run dev
+    ```
+4.  Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
